@@ -41,6 +41,168 @@ main {
     background: rgb(245, 248, 255);
 }
 
+
+/* productive  */
+.stats_section {
+    background-color: #f4f6fd;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.stats_section h2 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.stats_wrapper {
+    background-color: #e6e9ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+    margin-top: 25px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    /* makes it responsive */
+}
+
+.stat_box {
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.stat_box h3 {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.stat_box p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* user say  */
+.user_say {
+    padding: 10px;
+}
+
+.user_say .user_heading {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.user_cards_container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.user_card {
+    width: 30%;
+    background: #f9faff;
+    border: 1px solid #e0e6ed;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.stars {
+    color: #ffea00;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.user_card h3 {
+    color: rgb(30, 30, 30);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.user_card p {
+    color: rgb(30, 30, 30);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.reviewer-info strong {
+    color: rgb(117, 117, 117);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.reviewer-info span {
+    color: rgb(179, 179, 179);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+/* form  */
 .form {
     display: flex;
     justify-content: space-around;
@@ -114,6 +276,7 @@ main {
     line-height: 150%;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 5px;
     padding: 15px;
 }
 
