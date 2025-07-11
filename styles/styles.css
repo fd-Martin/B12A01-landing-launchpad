@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 60px;
+    border: 2px dotted red;
+
+}
+
+p {
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer {
+    border-top: 1px solid rgb(255, 21, 21);
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.logo_section,
+.footer_content,
+.footer_nav {
+    margin: 15px 0;
+}
+
+.logo_section img {
+    width: 100px;
+}
+
+.footer_content p {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.footer_nav nav {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer_nav nav ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.footer_nav nav ul a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
