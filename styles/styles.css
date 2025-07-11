@@ -40,7 +40,7 @@ main {
 
 /* header  */
 .header {
-    background-image: url("/Assets/Hero-bg.png");
+    background-image: url("../Assets/Hero-bg.png");
     background-position: center center;
     background-size: contain;
     padding: 60px 80px;
