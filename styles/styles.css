@@ -23,8 +23,6 @@
     max-width: 1140px;
     margin: 0 auto;
     padding: 50px 60px;
-    border: 2px dotted red;
-
 }
 
 p {
@@ -42,7 +40,146 @@ main {
 }
 
 
-/* productive  */
+/* header  */
+.header {
+    background-image: url(/Assets/Hero-bg.png);
+    background-position: center center;
+    background-size: contain;
+    padding: 60px 80px;
+    background-color: rgba(78, 71, 255, 0.01);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-content h1 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.focus-btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    padding: 12px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.focus-btn:hover {
+    background-color: #3a36d9;
+}
+
+/* preview  */
+
+.preview-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f5f6ff;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.preview-text {
+    width: 480px;
+}
+
+.preview-text h2 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.preview-text p {
+    color: rgba(37, 36, 50, 0.5);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.preview-btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+
+.preview-image {
+    text-align: center;
+}
+
+.preview-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* statistic */
 .stats_section {
     background-color: #f4f6fd;
     padding: 50px 0;
