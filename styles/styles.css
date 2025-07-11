@@ -75,6 +75,13 @@ main {
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: rgb(58, 51, 220);
+    /* Slightly darker */
+    transform: scale(1.1);
 }
 
 .hero-content {
@@ -102,10 +109,13 @@ main {
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .focus-btn:hover {
-    background-color: #3a36d9;
+    background-color: rgb(58, 51, 220);
+    /* Slightly darker */
+    transform: scale(1.1);
 }
 
 /* preview  */
@@ -139,6 +149,7 @@ main {
     font-weight: 400;
     line-height: 30px;
     margin-top: 20px;
+    text-align: left;
 }
 
 .preview-btn {
@@ -152,6 +163,13 @@ main {
     line-height: 150%;
     margin-top: 20px;
     padding: 10px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.preview-btn:hover {
+    background-color: rgb(58, 51, 220);
+    /* Slightly darker */
+    transform: scale(1.1);
 }
 
 .preview-image {
@@ -379,6 +397,14 @@ main {
     line-height: 150%;
     margin-top: 5px;
     padding: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.form .form_section_input form button:hover {
+    background-color: rgb(58, 51, 220);
+    /* Slightly darker */
+    transform: scale(1.1);
 }
 
 
