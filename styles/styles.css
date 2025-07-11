@@ -68,7 +68,6 @@ main {
     margin-top: 25px;
     border-radius: 12px;
     flex-wrap: wrap;
-    /* makes it responsive */
 }
 
 .stat_box {
